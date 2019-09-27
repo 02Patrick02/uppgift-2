@@ -1,25 +1,43 @@
 body{
-    color: purple;
+    color: orange;
     background: black;
+    font-family: arial;
+    font-size: 22px;
 }
+
 {
     font-family: arial;
     font-size: 22px; 
 }
 
-p.Patrick{
+.Patrick{
     border: 2px solid;
 }
-p.Teknik{
+.Teknik{
     background-color:grey;
     text-align: center;
-    color:white;
+    color:aqua;
 }
 
-p.Tankar{
+.Tankar{
 text-align: right
- 
 }
 a{
    text-decoration:none;
+}
+.wrapper {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-area: "content1 content2";
+
+}
+section{
+	display:grid;
+	grid-area:"content1";
+	grid-template-rows: 100px;
+	grid-template-columns: 40%; 
+}
+.content2{
+	display:grid;
+	grid-area:"content2";
 }
