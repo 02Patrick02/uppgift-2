@@ -1,0 +1,25 @@
+body{
+    color: purple;
+    background: black;
+}
+{
+    font-family: arial;
+    font-size: 22px; 
+}
+
+p.Patrick{
+    border: 2px solid;
+}
+p.Teknik{
+    background-color:grey;
+    text-align: center;
+    color:white;
+}
+
+p.Tankar{
+text-align: right
+ 
+}
+a{
+   text-decoration:none;
+}
