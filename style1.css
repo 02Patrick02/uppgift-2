@@ -23,3 +23,20 @@ text-align: right
 a{
    text-decoration:none;
 }
+.wrapper{
+	display:grid;
+	grid-template-areas: "content1 content2";
+	grid-template-columns: 1fr 1fr;
+}
+.section{
+	grid-area: content1;
+	display:grid;
+}
+.section1{
+	grid-area: content2;
+	display:grid;
+}
+img{ 
+width:400px;
+height:auto;
+}
